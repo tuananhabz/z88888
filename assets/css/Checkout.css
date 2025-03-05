@@ -1,0 +1,127 @@
+.checkout-heading {
+  font-size: 2rem;
+  color: #333;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.checkout-empty {
+  font-size: 1.6rem;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.checkout-list {
+  list-style: none;
+  padding: 0;
+}
+
+.checkout-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border: 1px solid lightcoral;
+  border-radius: 3px;
+}
+
+.checkout-item-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.checkout-item-info {
+  flex: 1;
+}
+
+.checkout-item-name {
+  font-size: 1.4rem;
+  color: #333;
+  margin: 0 0 5px;
+}
+
+.checkout-item-price {
+  font-size: 1.3rem;
+  color: #ee4d2d;
+  margin: 0 0 5px;
+}
+
+.checkout-item-quantity {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.checkout-item-quantity-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightcoral;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.checkout-item-quantity-value {
+  width: 40px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.checkout-item-remove {
+  background-color: #ff4444;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.checkout-item-remove:hover {
+  opacity: 0.8;
+}
+
+.checkout-total {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid lightcoral;
+  border-radius: 3px;
+  text-align: right;
+}
+
+.checkout-total p {
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0;
+}
+
+.checkout-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+/* Thêm kiểu cho tùy chọn thanh toán */
+.payment-options {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.payment-option-btn {
+  flex: 1;
+  padding: 10px;
+  background-color: #fb5533;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.payment-option-btn:hover {
+  opacity: 0.9;
+}

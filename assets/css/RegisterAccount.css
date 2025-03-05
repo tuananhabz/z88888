@@ -1,0 +1,90 @@
+.register-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.title {
+    text-align: center;
+}
+
+.register-form-container {
+    width: 520px;
+    padding: 48px;
+    box-shadow: 0px 0px 21px rgb(0 0 0 / 20%);
+    background: #fff;
+}
+
+label.form-label {
+    width: 100%;
+    display: block;
+    margin-top: 16px;
+}
+
+.form-control {
+    height: 40px;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+}
+
+input#last-name {
+    height: 40px;
+    display: block;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+input#email {
+    height: 40px;
+    display: block;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+input#first-name {
+    height: 40px;
+    display: block;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+input#password {
+    height: 40px;
+    display: block;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+input#confirm-password {
+    height: 40px;
+    display: block;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+button.submit-btn {
+    height: 40px;
+    display: block;
+    padding: 6px 12px;
+}
+
+.error-feedback {
+    color: red;
+    margin-top: 8px;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+}
